@@ -26,6 +26,7 @@ CREATE TABLE student
   CONSTRAINT student_pk PRIMARY KEY (student_id)  
 );  
 
+```
 CREATE SEQUENCE student_seq;
 
 CREATE OR REPLACE TRIGGER student_on_insert
@@ -36,7 +37,7 @@ BEGIN
   INTO :new.student_id
   FROM dual;
 END;
-
+```
 6 - Install Eclipse and connect it to Tomcat
 7 - import the App into Eclipse
 8 - Run on Server.
