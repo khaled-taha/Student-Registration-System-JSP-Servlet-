@@ -1,6 +1,6 @@
-#Project's Title : Student Registration System.
+# Project's Title : Student Registration System.
 
-##Project Description:
+## Project Description:
 1 - This project used to register students in Database , update, and delete them.
 
 2 - I used MVC Architecture: 
@@ -10,7 +10,7 @@
       
 ![MVC](https://user-images.githubusercontent.com/61011535/188104751-81c808a4-335e-4c58-9821-2aaf9fd9f342.PNG)
 
-##How to run:
+## How to run:
 
 1 - Install Apache tomcat v9.0
 2 - Install Oracle Database
