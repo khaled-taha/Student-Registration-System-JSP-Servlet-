@@ -18,6 +18,7 @@
 4 - put your userName and password in webContent\META-INF\context.xml file.
 5 - Create a table with these queries:
 
+```
 CREATE TABLE student  
 ( student_id number(11) NOT NULL ,  
   firstName varchar2(25) NOT NULL,  
@@ -26,7 +27,7 @@ CREATE TABLE student
   CONSTRAINT student_pk PRIMARY KEY (student_id)  
 );  
 
-```
+
 CREATE SEQUENCE student_seq;
 
 CREATE OR REPLACE TRIGGER student_on_insert
