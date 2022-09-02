@@ -18,7 +18,7 @@ Oracle Database for model layer.
 4 - put your userName and password in webContent\META-INF\context.xml file.
 5 - Create a table with these queries:
 
-```
+```sql
 CREATE TABLE student  
 ( student_id number(11) NOT NULL ,  
   firstName varchar2(25) NOT NULL,  
