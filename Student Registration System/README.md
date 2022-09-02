@@ -16,9 +16,13 @@
 ## How to run:
 
 1 - Install Apache tomcat v9.0
+
 2 - Install Oracle Database
+
 3 - Create a pluggable database with name: Student_Registration_System with your userName and password.
+
 4 - put your userName and password in webContent\META-INF\context.xml file.
+
 5 - Create a table with these queries:
 
 ```sql
@@ -43,7 +47,9 @@ BEGIN
 END;
 ```
 6 - Install Eclipse and connect it to Tomcat
+
 7 - import the App into Eclipse
+
 8 - Run on Server.
 
 
