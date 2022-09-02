@@ -5,7 +5,7 @@
 
 2 - I used MVC Architecture: 
 
-          Servlet technology for business logic layer (Controller) with java.
+          Servlet technology for Controller layer with java.
 
           JSP technology for view layer.
           
