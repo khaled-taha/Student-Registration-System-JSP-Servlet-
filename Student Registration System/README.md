@@ -4,6 +4,7 @@
 1 - This project used to register students in Database , update, and delete them.
 
 2 - I used MVC Architecture: 
+
           **Servlet technology for business logic layer (Controller) with java.
 
           **JSP technology for view layer.
