@@ -21,6 +21,10 @@ import dao.ApplicationDao;
 public class StudentControllerServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	
+	/*
+	  @Resource only works in Tomcat when you set up a resource in your container.
+          You need to add this in WebServlet class.
+	*/
 	@Resource(name = "jdbc/Student_Registration_System")
 	private DataSource dataSource;
 	private ApplicationDao dao;
