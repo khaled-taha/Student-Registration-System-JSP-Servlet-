@@ -1,4 +1,4 @@
-# Project's Title : Student Registration System.
+# Student Registration System.
 
 ## Project Description:
 1 - This project used to register students in Database , update, and delete them.
